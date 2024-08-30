@@ -19,10 +19,13 @@ class TravelPage extends StatelessWidget {
 
   Widget _background(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.50,
-      width: MediaQuery.of(context).size.width,
+      height: 500,
+      width: 500,
+
+      // height: MediaQuery.of(context).size.height * 0.50,
+      // width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-        image: DecorationImage(image: AssetImage("assests/images/image.jpg")),
+        image: DecorationImage(image: AssetImage("assests/images/travel4.webp")),
       ),
       child: Padding(
         padding:
@@ -74,20 +77,20 @@ class TravelPage extends StatelessWidget {
                 price: 195,
                 rating: 4.3),
             HotelTile(
-                name: "Hilton Thai",
-                image:"assests/images/image.jpg",
+                name: "London Travel",
+                image:"assests/images/travel1.jpeg",
                     // "https://images.pexels.com/photos/931018/pexels-photo-931018.jpg",
                 price: 195,
                 rating: 4.3),
             HotelTile(
-                name: "Hilton Thai",
-                image: "assests/images/image.jpg",
+                name: "New York Go",
+                image: "assests/images/travel2.jpeg",
                     // "https://images.pexels.com/photos/931018/pexels-photo-931018.jpg",
                 price: 195,
                 rating: 4.3),
             HotelTile(
-                name: "Hilton Thai",
-                image: "assests/images/image.jpg", 
+                name: "Plaza Mir",
+                image: "assests/images/travel3.webp",    
                     // "https://images.pexels.com/photos/931018/pexels-photo-931018.jpg",
                 price: 195,
                 rating: 4.3),
